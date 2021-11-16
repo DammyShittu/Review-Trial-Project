@@ -1,0 +1,106 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: rgb(235, 235, 235);
+
+}
+img {
+  padding: 25px 0;
+  width: 25%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  padding: 25px 20px;
+  margin: 25px 20px;
+}
+nav ul li{
+  display: inline;
+  padding: 0 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+#hero {
+  text-align: center;
+  margin-top: 25px;
+}
+#hero h2 {
+  padding-bottom: 15px;
+}
+#hero input[type=email]{
+  width: 30%;
+  height: 20px;
+  padding-left: 10px;
+  font-size: 17px;
+  color: black;
+}
+#hero input[type=submit]{
+  width: 15%;
+  padding: 5px;
+  margin: 15px 0;
+  background-color:#f1c40f;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#features {
+  text-align: center;
+  margin-top: 60px;
+}
+#features h2 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: center;
+  margin-left: 27%;
+  font-size: 1.7rem;
+  padding-bottom: 15px;
+}
+#features p {
+  font-size: 1rem;
+  padding-bottom: 15px;
+  margin-left: 22%;
+}
+#work-pattern {
+  margin-top: 60px;
+  text-align: center;
+}
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+#pricing > div {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  height: 200px;
+}
+#pricing h2 {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#pricing li {
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 18px;
+}
+footer {
+  padding-top: 20px;
+  float: right;
+  margin-right: 20px;
+  background-color: #b6b3b3;
+}
+footer nav {
+  margin-bottom: -23px;
+}
